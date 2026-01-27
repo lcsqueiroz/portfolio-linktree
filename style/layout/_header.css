@@ -1,0 +1,23 @@
+.header {
+  padding: 20px 50px;
+}
+.header__logo {
+  font-size: 35px;
+}
+.header__logo > .detail {
+  color: #00fedf;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__nav-item {
+  justify-items: center;
+}
