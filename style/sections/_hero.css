@@ -1,0 +1,50 @@
+.hero__container-grid {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  place-items: center;
+  place-content: center;
+  padding: 20px;
+}
+.hero__title-container {
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+  gap: 15px;
+}
+.hero__photo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+}
+.hero__photo > img {
+  height: 400px;
+}
+.icons__container {
+  margin-top: 25px 0px;
+  display: flex;
+  place-items: center;
+  place-self: center;
+  gap: 25px;
+}
+/* estilizando título */
+
+.hero__title-greeting {
+  display: block;
+  line-height: 0.7;
+  font-weight: 400;
+}
+.hero__title-role {
+  display: block;
+  margin: 20px 0px;
+}
+.hero__title-role--main {
+  display: block;
+  font-size: 100px;
+  margin-bottom: 0;
+  line-height: 0.8;
+}
+.hero__title-role--sub {
+  font-size: 50px;
+}

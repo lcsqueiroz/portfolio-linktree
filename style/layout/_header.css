@@ -4,10 +4,6 @@
 .header__logo {
   font-size: 35px;
 }
-.header__logo > .detail {
-  color: #00fedf;
-}
-
 .header__container {
   display: flex;
   justify-content: space-between;

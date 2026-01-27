@@ -1,0 +1,13 @@
+.detail {
+  color: #00fedf;
+}
+.inline-detail {
+  display: block;
+}
+.inline-detail-title {
+  display: block;
+  font-size: 150px;
+}
+.inline-detail-subtitle {
+  font-size: 60px;
+}

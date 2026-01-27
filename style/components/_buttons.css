@@ -1,11 +1,13 @@
 .btn {
-  height: 52px;
-  width: 255px;
-  border: 5px;
-
-  display: inline-block;
-  cursor: pointer;
   background-color: #00fedf;
-  border-radius: 3px;
+  border: none;
   color: #191919;
+  padding: 10px 42px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+.btn:hover {
+  background-color: #03e3c9;
 }

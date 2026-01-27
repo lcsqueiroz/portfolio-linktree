@@ -9,9 +9,9 @@
 @import url(components/_tags.css);
 @import url(components/_carousel.css);
 @import url(components/_social.css);
-
+@import url(components/_details.css);
 @import url(layout/_header.css);
-@import url(sections/_heroSection.css);
+@import url(sections/_hero.css);
 @import url(sections/_university.css);
 @import url(sections/_systems.css);
 @import url(sections/_contact.css);
