@@ -1,0 +1,8 @@
+/* Configuração de base para fontes e textos */
+body {
+  font-family: "poppins";
+  font-size: 21px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #191919;
+}
