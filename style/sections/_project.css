@@ -1,0 +1,24 @@
+.project__container-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  place-content: center;
+  margin: 200px 0;
+  text-align: end;
+}
+.project__title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  height: 100%;
+}
+.project-title h3 {
+  display: flex;
+  flex-direction: column;
+  color: #00fedf;
+  font-size: 14px;
+}
+.project-description {
+  line-height: 1.5;
+  margin-top: 10px;
+}

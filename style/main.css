@@ -1,6 +1,6 @@
-@import url(base/_variables.css);
-@import url(base/_reset.css);
 @import url(base/_base.css);
+@import url(base/_reset.css);
+@import url(base/_variables.css);
 
 @import url(layout/_layout.css);
 @import url(components/_buttons.css);
@@ -14,6 +14,7 @@
 @import url(sections/_hero.css);
 @import url(sections/_university.css);
 @import url(sections/_systems.css);
+@import url(sections/_project.css);
 @import url(sections/_contact.css);
 @import url(layout/_footer.css);
 
