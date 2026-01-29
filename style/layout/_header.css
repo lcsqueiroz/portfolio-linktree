@@ -2,7 +2,7 @@
   padding: 20px 50px;
 }
 .header__logo {
-  font-size: 35px;
+  font-size: 30px;
 }
 .header__container {
   display: flex;
@@ -13,7 +13,4 @@
   display: flex;
   align-items: center;
   gap: 50px;
-}
-.header__nav-item {
-  justify-items: center;
 }
