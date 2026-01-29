@@ -7,11 +7,18 @@
   padding: 20px;
 }
 .hero__title-container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  height: 100%;
+  align-items: end;
+  row-gap: 10px;
+}
+/* .hero__title-container {
   display: flex;
   flex-direction: column;
   place-items: start;
   gap: 15px;
-}
+} */
 .hero__photo {
   display: flex;
   flex-direction: column;
@@ -22,11 +29,19 @@
   height: 400px;
 }
 .icons__container {
-  margin-top: 25px 0px;
   display: flex;
   place-items: center;
   place-self: center;
-  gap: 25px;
+  margin-top: 10px;
+  gap: 50px;
+}
+.icons__container a {
+  transform: scale(1);
+  transition: transform 0.1s ease;
+  transition-delay: 0.1s; /* Atraso de 200ms antes de começar a aumentar */
+}
+.icons__container a:hover {
+  transform: scale(1.1);
 }
 /* estilizando título */
 
@@ -37,7 +52,7 @@
 }
 .hero__title-role {
   display: block;
-  margin: 20px 0px;
+  margin-bottom: 0px;
 }
 .hero__title-role--main {
   display: block;
@@ -47,4 +62,8 @@
 }
 .hero__title-role--sub {
   font-size: 50px;
+}
+
+.hero__description {
+  line-height: 1.5;
 }
