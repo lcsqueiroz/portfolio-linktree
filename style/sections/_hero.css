@@ -1,69 +1,82 @@
+/* Hero Section Layout - grid */
 .hero__container-grid {
-  margin: 50px 0px;
   display: grid;
   grid-template-columns: repeat(2, 550px);
   place-items: center;
   place-content: center;
+  margin: 50px 0;
   padding: 20px;
 }
+
+/* Hero Section Content: Título, Descrição, e Botão */
+
 .hero__title-container {
   display: grid;
   grid-template-rows: repeat(3, auto);
+  row-gap: 10px;
   height: 100%;
   align-items: end;
-  row-gap: 10px;
 }
-/* .hero__title-container {
-  display: flex;
-  flex-direction: column;
-  place-items: start;
-  gap: 15px;
-} */
+
+/* Título */
+.hero__title-greeting {
+  display: block;
+  font-weight: 400;
+  line-height: 0.7;
+}
+
+.hero__title-role {
+  display: block;
+  margin-bottom: 0;
+}
+
+.hero__title-role--main {
+  display: block;
+  font-size: 100px;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+
+.hero__title-role--sub {
+  font-size: 50px;
+}
+
+/* Descrição */
+.hero__description {
+  line-height: 1.5;
+}
+
+/* Comportamento inline para o button */
+.hero__btn-download {
+  justify-self: start;
+  width: fit-content;
+}
+
+/*Hero Section: Foto e Icones */
 .hero__photo {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 5px;
 }
+
 .hero__photo > img {
   height: 400px;
 }
+
 .icons__container {
   display: flex;
   place-items: center;
   place-self: center;
-  margin-top: 10px;
   gap: 50px;
+  margin-top: 10px;
 }
+
+/* Icone: hover */
 .icons__container a {
-  transform: scale(1);
-  transition: transform 0.1s ease;
-  transition-delay: 0.1s; /* Atraso de 200ms antes de começar a aumentar */
+  transition: transform 0.2s ease-in-out;
 }
+
 .icons__container a:hover {
   transform: scale(1.1);
-}
-/* estilizando título */
-
-.hero__title-greeting {
-  display: block;
-  line-height: 0.7;
-  font-weight: 400;
-}
-.hero__title-role {
-  display: block;
-  margin-bottom: 0px;
-}
-.hero__title-role--main {
-  display: block;
-  font-size: 100px;
-  margin-bottom: 0;
-  line-height: 0.8;
-}
-.hero__title-role--sub {
-  font-size: 50px;
-}
-
-.hero__description {
-  line-height: 1.5;
 }
