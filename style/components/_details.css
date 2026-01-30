@@ -11,3 +11,9 @@
 .inline-detail-subtitle {
   font-size: 60px;
 }
+
+.line-detail {
+  width: 80%;
+  border-bottom: 4px solid #475467;
+  margin: 50px auto;
+}

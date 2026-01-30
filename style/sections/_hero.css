@@ -1,11 +1,12 @@
+.hero {
+  padding: 80px 20px;
+}
 /* Hero Section Layout - grid */
 .hero__container-grid {
   display: grid;
   grid-template-columns: repeat(2, 550px);
   place-items: center;
   place-content: center;
-  margin: 50px 0;
-  padding: 20px;
 }
 
 /* Hero Section Content: Título, Descrição, e Botão */
