@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 54px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--text-light);
 }
 .project__grid {
   display: grid;
@@ -33,7 +33,7 @@
 .project__subtitle {
   display: flex;
   flex-direction: column;
-  color: #00fedf;
+  color: var(--primary-color);
   font-size: 14px;
 }
 .project__description {
@@ -42,9 +42,5 @@
 }
 .project__link {
   display: block;
-  transition: transform 0.3s ease-in-out;
   overflow: hidden;
-}
-.project__link:hover {
-  transform: scale(1.05);
 }

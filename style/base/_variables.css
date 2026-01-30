@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #00fedf;
+  --bg-dark: #191919;
+  --bg-light-dark: #1c1c1c;
+  --bg-card-mobile: #333;
+
+  --text-light: #fff;
+  --text-medium: #ccc;
+
+  --font-main: "poppins", sans-serif;
+
+  --container-width: 1200px;
+  --transition-main: 0.3s ease-in-out;
+}

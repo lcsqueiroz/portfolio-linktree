@@ -1,9 +1,10 @@
 .contact {
   padding: 100px 20px;
+  background-color: var(--bg-light-dark);
 }
 
 .contact__container {
-  max-width: 1200px;
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -14,21 +15,21 @@
 
 .contact__title {
   font-size: 32px;
-  color: #fff;
+  color: var(--text-light);
   margin-bottom: 10px;
 }
 
 .contact__line {
   width: 80px;
   height: 2px;
-  background-color: #00fedf;
+  background-color: var(--primary-color);
 }
 
 .contact__main {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 40px;
-  color: #ccc;
+  color: var(--text-medium);
 }
 
 .contact__description p {
@@ -39,7 +40,7 @@
 
 .contact__subtitle {
   font-size: 18px;
-  color: #00fedf;
+  color: var(--primary-color);
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -52,12 +53,12 @@
 }
 
 .contact__link {
-  color: #ccc;
+  color: var(--text-medium);
   text-decoration: none;
   margin-bottom: 10px;
-  transition: color 0.3s ease;
+  transition: color var(--transition-main);
 }
 
 .contact__link:hover {
-  color: #00fedf;
+  color: var(--primary-color);
 }

@@ -2,11 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Configuração de base para fontes e textos */
+/* base fontes e textos */
 body {
-  font-family: "poppins";
+  font-family: var(--font-main);
   text-decoration: none;
-  color: #fff;
-  background-color: #191919;
+  color: var(--text-light);
+  background-color: var(--bg-dark);
   font-weight: 400;
 }
