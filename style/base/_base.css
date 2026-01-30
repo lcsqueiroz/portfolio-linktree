@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Configuração de base para fontes e textos */
 body {
   font-family: "poppins";

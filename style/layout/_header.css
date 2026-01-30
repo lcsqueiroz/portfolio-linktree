@@ -14,3 +14,12 @@
   align-items: center;
   gap: 50px;
 }
+.header__nav-item {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header__nav-item:hover {
+  color: #00fedf;
+}

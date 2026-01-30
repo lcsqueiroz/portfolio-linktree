@@ -63,6 +63,8 @@
 
 .hero__photo > img {
   height: 400px;
+  border-radius: 50%;
+  border: 2px solid #00fedf;
 }
 
 .icons__container {
@@ -75,9 +77,9 @@
 
 /* Icone: hover */
 .icons__container a {
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .icons__container a:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
