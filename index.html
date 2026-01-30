@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- css -->
   <link rel="stylesheet" href="style/main.css">
   <title>Portfólio Profissional - Linktree</title>
@@ -29,7 +31,7 @@
             <a href="#contact">Contato</a>
           </li>
           <a href="documents/cv-lucas-queiroz.pdf" download="cv-lucas-queiroz" class="hero__btn-download">
-            <button class="btn ">Baixar CV</button>
+            <button class="btn">Baixar CV</button>
           </a>
         </ul>
       </nav>
@@ -41,7 +43,7 @@
     <section class="hero">
       <div class="hero__container-grid">
         <div class="hero__title-container">
-          <h1 class="hero__title">
+          <h1 class="hero__title" data-aos="fade-right" data-aos-delay="250">
             <span class="hero__title-greeting">Olá, Me chamo</span>
             <span class="hero__title-name detail">Lucas Queiroz Vieira</span>, sou
             <span class="hero__title-role">
@@ -50,12 +52,12 @@
               <span class="detail">.</span>
             </span>
           </h1>
-          <p class="hero__description">Sou <span class="detail">estudante de Ciência da Computação</span> e <span>Analista de Sistemas</span> na Gocil, onde atuo há três anos. Iniciando como aprendiz no suporte técnico, adquiri experiência em infraestrutura, PMO e sistemas. Atualmente, <span class="detail">foco em desenvolvimento web</span>, integrações e mapeamento de sistemas, unindo competências técnicas ao design formado pela <span class="detail">SAGA</span> e <span class="detail">Origamid</span>.</p>
+          <p class="hero__description" data-aos="fade-left" data-aos-delay="250">Sou <span class="detail">estudante de Ciência da Computação</span> e <span>Analista de Sistemas</span> na Gocil, onde atuo há três anos. Iniciando como aprendiz no suporte técnico, adquiri experiência em infraestrutura, PMO e sistemas. Atualmente, <span class="detail">foco em desenvolvimento web</span>, integrações e mapeamento de sistemas, unindo competências técnicas ao design formado pela <span class="detail">SAGA</span> e <span class="detail">Origamid</span>.</p>
           <a href="documents/cv-lucas-queiroz.pdf" download="cv-lucas-queiroz" class="hero__btn-download">
-            <button class="btn ">Baixar CV</button>
+            <button class="btn" data-aos="fade-right" data-aos-delay="250">Baixar CV</button>
           </a>
         </div>
-        <div class="hero__photo">
+        <div class="hero__photo" data-aos="fade-up" data-aos-delay="250">
           <img src="assets/images/profile.png" alt="">
           <div class="icons__container">
             <a href="https://www.linkedin.com/in/lcsqueiroz/" target="_blank"><img src="assets/icons/linkedin.svg" alt="ícone do linkedin"></a>
@@ -68,8 +70,8 @@
     </section>
 
     <section class="projects" id="projects">
-      <h2 class="section__title">Projetos <span class="detail">.</span></h2>
-      <article class="project">
+      <h2 class="section__title" data-aos="fade-up" data-aos-delay="250">Projetos <span class="detail">.</span></h2>
+      <article class="project" data-aos="fade-up" data-aos-delay="250">
         <div class="project__grid">
           <div class="project__banner">
             <a href="https://portal.gocil.com.br/" target="_blank" class="project__link">
@@ -89,7 +91,7 @@
           </div>
         </div>
       </article>
-      <article class="project">
+      <article class="project" data-aos="fade-up" data-aos-delay="250">
         <div class="project__grid">
           <div class="project__banner">
             <a href="https://pagina-seguranca-da-informacao.vercel.app/index.html" target="_blank" class="project__link">
@@ -115,10 +117,10 @@
     <section class="contact" id="contact">
       <div class="contact__container">
         <div class="contact__header">
-          <h3 class="contact__title">Entre em <span class="detail">contato</span>.</h3>
+          <h3 class="contact__title" data-aos="fade-right" data-aos-delay="500">Entre em <span class="detail">contato</span>.</h3>
           <div class="contact__line"></div>
         </div>
-        <div class="contact__main">
+        <div class="contact__main" data-aos="fade-up" data-aos-delay="250">
           <div class="contact__description">
             <p>Estou sempre aberto a novas oportunidades e colaborações. Se você tem um projeto em mente, uma pergunta ou apenas quer dizer um "oi", sinta-se à vontade para entrar em contato.</p>
           </div>
@@ -142,6 +144,9 @@
       Copyright© 2026 Lucas Queiroz Vieira. Todos os direitos reservados
     </p>
   </footer>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
